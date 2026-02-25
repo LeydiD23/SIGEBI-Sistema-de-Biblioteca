@@ -1,0 +1,28 @@
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\bin\Debug\net8.0\SG.IOC.deps.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\bin\Debug\net8.0\SG.IOC.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\bin\Debug\net8.0\SG.IOC.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.AssemblyInfoInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.AssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\refint\SG.IOC.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SG.IOC\obj\Debug\net8.0\ref\SG.IOC.dll
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\bin\Debug\net8.0\SG.IOC.deps.json
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\bin\Debug\net8.0\SG.IOC.dll
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\bin\Debug\net8.0\SG.IOC.pdb
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\bin\Debug\net8.0\SGA.Domain.dll
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\bin\Debug\net8.0\SGA.Persistence.dll
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\bin\Debug\net8.0\SGA.Domain.pdb
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\bin\Debug\net8.0\SGA.Persistence.pdb
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.csproj.AssemblyReference.cache
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.AssemblyInfoInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.AssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.csproj.CoreCompileInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.csproj.Up2Date
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.dll
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\refint\SG.IOC.dll
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\SG.IOC.pdb
+C:\Users\minne\Downloads\SIGEBI\SG.IOC\obj\Debug\net8.0\ref\SG.IOC.dll

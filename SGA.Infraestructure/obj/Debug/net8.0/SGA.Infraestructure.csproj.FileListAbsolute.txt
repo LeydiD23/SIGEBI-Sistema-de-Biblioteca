@@ -1,0 +1,22 @@
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\bin\Debug\net8.0\SGA.Infraestructure.deps.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\bin\Debug\net8.0\SGA.Infraestructure.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\bin\Debug\net8.0\SGA.Infraestructure.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.AssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\refint\SGA.Infraestructure.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\ref\SGA.Infraestructure.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\bin\Debug\net8.0\SGA.Infraestructure.deps.json
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\bin\Debug\net8.0\SGA.Infraestructure.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\bin\Debug\net8.0\SGA.Infraestructure.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.AssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\refint\SGA.Infraestructure.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\SGA.Infraestructure.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Infraestructure\obj\Debug\net8.0\ref\SGA.Infraestructure.dll

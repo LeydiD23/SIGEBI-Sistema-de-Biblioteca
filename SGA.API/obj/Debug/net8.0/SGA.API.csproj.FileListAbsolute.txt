@@ -1,0 +1,117 @@
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.staticwebassets.endpoints.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.exe
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.deps.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.runtimeconfig.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.csproj.AssemblyReference.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.AssemblyInfoInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.AssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\scopedcss\bundle\SGA.API.styles.css
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.csproj.Up2Date
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\refint\SGA.API.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.genruntimeconfig.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.API\obj\Debug\net8.0\ref\SGA.API.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\appsettings.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.staticwebassets.endpoints.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.exe
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.deps.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.runtimeconfig.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.API.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SG.IOC.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.Application.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.Domain.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.Persistence.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SG.IOC.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.Application.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.Domain.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.API\bin\Debug\net8.0\SGA.Persistence.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.csproj.AssemblyReference.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.AssemblyInfoInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.AssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.csproj.CoreCompileInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\scopedcss\bundle\SGA.API.styles.css
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.csproj.Up2Date
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\refint\SGA.API.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\SGA.API.genruntimeconfig.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.API\obj\Debug\net8.0\ref\SGA.API.dll

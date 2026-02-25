@@ -1,0 +1,34 @@
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.deps.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.runtimeconfig.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.csproj.AssemblyReference.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.AssemblyInfoInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.AssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\refint\SGA.Persistence.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.genruntimeconfig.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\ref\SGA.Persistence.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Domain.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Domain.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Pers.680917C1.Up2Date
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.deps.json
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.runtimeconfig.json
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Persistence.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Domain.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\bin\Debug\net8.0\SGA.Domain.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.csproj.AssemblyReference.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.AssemblyInfoInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.AssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Pers.680917C1.Up2Date
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\refint\SGA.Persistence.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\SGA.Persistence.genruntimeconfig.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Persistence\obj\Debug\net8.0\ref\SGA.Persistence.dll

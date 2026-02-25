@@ -1,0 +1,22 @@
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\bin\Debug\net8.0\SGA.Model.deps.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\bin\Debug\net8.0\SGA.Model.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\bin\Debug\net8.0\SGA.Model.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.AssemblyInfoInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.AssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\refint\SGA.Model.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.MODEL\obj\Debug\net8.0\ref\SGA.Model.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\bin\Debug\net8.0\SGA.Model.deps.json
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\bin\Debug\net8.0\SGA.Model.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\bin\Debug\net8.0\SGA.Model.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.AssemblyInfoInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.AssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.csproj.CoreCompileInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\refint\SGA.Model.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\SGA.Model.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.MODEL\obj\Debug\net8.0\ref\SGA.Model.dll

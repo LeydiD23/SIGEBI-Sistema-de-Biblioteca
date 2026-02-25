@@ -1,0 +1,33 @@
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\bin\Debug\net8.0\SGA.Domain.deps.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\bin\Debug\net8.0\SGA.Domain.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\bin\Debug\net8.0\SGA.Domain.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.AssemblyInfoInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.AssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\refint\SGA.Domain.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Domain\obj\Debug\net8.0\ref\SGA.Domain.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\bin\Debug\net8.0\SGA.Domain.deps.json
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\bin\Debug\net8.0\SGA.Domain.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\bin\Debug\net8.0\SGA.Domain.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.AssemblyInfoInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.AssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\refint\SGA.Domain.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\SGA.Domain.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Domain\obj\Debug\net8.0\ref\SGA.Domain.dll
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\bin\Debug\net8.0\SGA.Domain.deps.json
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\bin\Debug\net8.0\SGA.Domain.dll
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\bin\Debug\net8.0\SGA.Domain.pdb
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\SGA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\SGA.Domain.AssemblyInfoInputs.cache
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\SGA.Domain.AssemblyInfo.cs
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\SGA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\SGA.Domain.dll
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\refint\SGA.Domain.dll
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\SGA.Domain.pdb
+C:\Users\Leydi\Downloads\SIGEBII\SGA.Domain\obj\Debug\net8.0\ref\SGA.Domain.dll

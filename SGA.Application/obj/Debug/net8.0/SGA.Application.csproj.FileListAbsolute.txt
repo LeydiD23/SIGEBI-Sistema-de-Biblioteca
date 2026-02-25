@@ -1,0 +1,22 @@
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\bin\Debug\net8.0\SGA.Application.deps.json
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\bin\Debug\net8.0\SGA.Application.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\bin\Debug\net8.0\SGA.Application.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.AssemblyInfoInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.AssemblyInfo.cs
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.csproj.CoreCompileInputs.cache
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\refint\SGA.Application.dll
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.pdb
+C:\Users\Leydi\Documents\SIGEBI SYSTEM\SIGEBI\SGA.Application\obj\Debug\net8.0\ref\SGA.Application.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\bin\Debug\net8.0\SGA.Application.deps.json
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\bin\Debug\net8.0\SGA.Application.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\bin\Debug\net8.0\SGA.Application.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.AssemblyInfoInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.AssemblyInfo.cs
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.csproj.CoreCompileInputs.cache
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\refint\SGA.Application.dll
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\SGA.Application.pdb
+C:\Users\minne\Downloads\SIGEBI\SGA.Application\obj\Debug\net8.0\ref\SGA.Application.dll
