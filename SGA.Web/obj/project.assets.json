@@ -4019,11 +4019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Web\\SGA.Web.csproj",
+      "projectUniqueName": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Web\\SGA.Web.csproj",
       "projectName": "SGA.Web",
-      "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Web\\SGA.Web.csproj",
+      "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Web\\SGA.Web.csproj",
       "packagesPath": "C:\\Users\\minne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Web\\obj\\",
+      "outputPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4044,8 +4044,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj": {
-              "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj"
+            "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj": {
+              "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj"
             }
           }
         }

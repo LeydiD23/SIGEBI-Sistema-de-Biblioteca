@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZP4NHC7DAM=",
+  "dgSpecHash": "ctTa7zIBS/E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\SG.IOC.csproj",
+  "projectFilePath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\SG.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minne\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\minne\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -3174,11 +3174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.API\\SGA.API.csproj",
+      "projectUniqueName": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.API\\SGA.API.csproj",
       "projectName": "SGA.API",
-      "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.API\\SGA.API.csproj",
+      "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.API\\SGA.API.csproj",
       "packagesPath": "C:\\Users\\minne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.API\\obj\\",
+      "outputPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3199,17 +3199,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\SG.IOC.csproj": {
-              "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\SG.IOC.csproj"
+            "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\SG.IOC.csproj": {
+              "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\SG.IOC.csproj"
             },
-            "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Application\\SGA.Application.csproj": {
-              "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Application\\SGA.Application.csproj"
+            "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Application\\SGA.Application.csproj": {
+              "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Application\\SGA.Application.csproj"
             },
-            "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj": {
-              "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj"
+            "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj": {
+              "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj"
             },
-            "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj": {
-              "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj"
+            "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj": {
+              "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj"
             }
           }
         }

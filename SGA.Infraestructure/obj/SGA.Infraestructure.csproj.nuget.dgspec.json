@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Infraestructure\\SGA.Infraestructure.csproj": {}
+    "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Infraestructure\\SGA.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Infraestructure\\SGA.Infraestructure.csproj": {
+    "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Infraestructure\\SGA.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Infraestructure\\SGA.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Infraestructure\\SGA.Infraestructure.csproj",
         "projectName": "SGA.Infraestructure",
-        "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Infraestructure\\SGA.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Infraestructure\\SGA.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\minne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

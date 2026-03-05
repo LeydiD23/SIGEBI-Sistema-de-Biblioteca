@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\SG.IOC.csproj": {}
+    "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\SG.IOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\SG.IOC.csproj": {
+    "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\SG.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\SG.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\SG.IOC.csproj",
         "projectName": "SG.IOC",
-        "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\SG.IOC.csproj",
+        "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\SG.IOC.csproj",
         "packagesPath": "C:\\Users\\minne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SG.IOC\\obj\\",
+        "outputPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SG.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj": {
-                "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj"
+              "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj": {
+                "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj"
               },
-              "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj": {
-                "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj"
+              "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj": {
+                "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj": {
+    "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj",
         "projectName": "SGA.Domain",
-        "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj",
+        "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj",
         "packagesPath": "C:\\Users\\minne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\obj\\",
+        "outputPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj": {
+    "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj",
         "projectName": "SGA.Persistence",
-        "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\SGA.Persistence.csproj",
+        "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\SGA.Persistence.csproj",
         "packagesPath": "C:\\Users\\minne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,8 +169,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj": {
-                "projectPath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.Domain\\SGA.Domain.csproj"
+              "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj": {
+                "projectPath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.Domain\\SGA.Domain.csproj"
               }
             }
           }

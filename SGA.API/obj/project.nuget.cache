@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NX/2tEje50c=",
+  "dgSpecHash": "sMKfX0Yd8JE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minne\\Downloads\\SIGEBI\\SGA.API\\SGA.API.csproj",
+  "projectFilePath": "C:\\Users\\minne\\OneDrive\\Documents\\repos\\SGA.API\\SGA.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minne\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\minne\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

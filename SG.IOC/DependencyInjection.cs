@@ -14,6 +14,14 @@ public static class DependencyInjection
                 configuration.GetConnectionString("DefaultConnection")));
 
         services.AddScoped<ILibroRepository, LibroRepository>();
+        services.AddScoped<IEstudianteRepository, EstudianteRepository>();
+        services.AddScoped<IReservaRepository, ReservaRepository>()
+        services.AddScoped<IPenalizacionRepository, PenalizacionRepository>();
+        services.AddScoped<IPrestamoRepository, PrestamoRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IAuditoriaRepository, AuditoriaRepository>();
+        services.AddScoped<IDocenteRepository, DocenteRepository>();
+        services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 
         return services;
     }
