@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace SGA.Persistence.Repository
 {
-    public class NotificacionRepository
+    public class NotificacionesRepository
        : BaseRepository<Notificacion>, INotificacionRepository
     {
-        public NotificacionRepository(AppDbContext context)
+        public NotificacionesRepository(AppDbContext context)
             : base(context)
         {
         }

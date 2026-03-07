@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SGA.Persistence.Base;
+using SGA.Domain.Entitys;
+using SGA.Domain.Repository;
+using SGA.Domain.Enums;
+using Microsoft.EntityFrameworkCore;
 
 namespace SGA.Persistence.Repository
 {

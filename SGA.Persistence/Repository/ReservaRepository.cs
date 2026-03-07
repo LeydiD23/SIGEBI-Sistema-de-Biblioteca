@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SGA.Persistence.Base;
+using SGA.Domain.Entitys;
+using SGA.Domain.Repository;
+using SGA.Domain.Enums;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace SGA.Persistence.Repository
 {
@@ -17,7 +23,7 @@ namespace SGA.Persistence.Repository
         public async Task<IEnumerable<Reserva>> GetReservasActivasAsync()
         {
             return await _context.Set<Reserva>()
-                .Where(r => r.Estado == EstadoReserva.Activa)
+                .Where(r => r.Estado == EstadoReserva.Pendiente)
                 .Include(r => r.Libro)
                 .Include(r => r.Estudiante)
                 .Include(r => r.Docente)
