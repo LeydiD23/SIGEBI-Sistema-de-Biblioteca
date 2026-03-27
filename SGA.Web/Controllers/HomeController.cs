@@ -23,7 +23,11 @@ namespace SGA.Web.Controllers
             bool conectado = _Context.Database.CanConnect();
 
             // Puedes mostrar el resultado en la vista o directamente como texto
+<<<<<<< HEAD
             ViewBag.Conexion = conectado ? "Conexiï¿½n exitosa" : "No se pudo conectar";
+=======
+            ViewBag.Conexion = conectado ? "Conexión exitosa" : "No se pudo conectar";
+>>>>>>> 63805313ec8ba0ebcf69a1a46a526358e6722d9c
 
             return View();
         }
@@ -33,6 +37,7 @@ namespace SGA.Web.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         public IActionResult Categorias()
         {
             return View();
@@ -93,6 +98,8 @@ namespace SGA.Web.Controllers
             return View();
         }
 
+=======
+>>>>>>> 63805313ec8ba0ebcf69a1a46a526358e6722d9c
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
