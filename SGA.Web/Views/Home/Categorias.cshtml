@@ -1,0 +1,129 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Categorías";
+}
+
+<div class="home-container" style="padding: 32px;">
+    <div style="margin-bottom: 32px;">
+        <h1 style="font-size: 28px; font-weight: 700; color: #1e293b; margin-bottom: 8px;">Categorías</h1>
+        <p style="font-size: 15px; color: #64748b;">Explora los libros por categoría</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
+        <!-- Clásicos -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #7c3aed, #8b5cf6); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Clásicos</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Las obras maestras de la literatura universal</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(124, 58, 237, 0.1); color: #7c3aed; border-radius: 20px; font-size: 13px; font-weight: 500;">156 libros</span>
+        </div>
+
+        <!-- Ciencia Ficción -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #06b6d4, #22d3ee); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Ciencia Ficción</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Futuros imaginarios y tecnología avanzada</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(6, 182, 212, 0.1); color: #06b6d4; border-radius: 20px; font-size: 13px; font-weight: 500;">98 libros</span>
+        </div>
+
+        <!-- Ficción -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #ec4899, #f472b6); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Ficción</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Historias de la vida y la imaginación</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(236, 72, 153, 0.1); color: #ec4899; border-radius: 20px; font-size: 13px; font-weight: 500;">234 libros</span>
+        </div>
+
+        <!-- Desarrollo Personal -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #10b981, #34d399); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 20V10"></path>
+                    <path d="M12 20V4"></path>
+                    <path d="M6 20v-6"></path>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Desarrollo Personal</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Crece y mejora tu vida</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(16, 185, 129, 0.1); color: #10b981; border-radius: 20px; font-size: 13px; font-weight: 500;">87 libros</span>
+        </div>
+
+        <!-- Terror -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #ef4444, #f87171); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Terror</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Historias que dan escalofríos</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(239, 68, 68, 0.1); color: #ef4444; border-radius: 20px; font-size: 13px; font-weight: 500;">65 libros</span>
+        </div>
+
+        <!-- Historia -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #f59e0b, #fbbf24); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Historia</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Eventos y personajes del pasado</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(245, 158, 11, 0.1); color: #f59e0b; border-radius: 20px; font-size: 13px; font-weight: 500;">112 libros</span>
+        </div>
+
+        <!-- Romance -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #f43f5e, #fb7185); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Romance</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Historias de amor y pasión</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(244, 63, 94, 0.1); color: #f43f5e; border-radius: 20px; font-size: 13px; font-weight: 500;">145 libros</span>
+        </div>
+
+        <!-- Misterio -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #6366f1, #818cf8); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Misterio</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Intriga y suspense</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(99, 102, 241, 0.1); color: #6366f1; border-radius: 20px; font-size: 13px; font-weight: 500;">78 libros</span>
+        </div>
+
+        <!-- Biografía -->
+        <div style="background: white; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; cursor: pointer;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #8b5cf6, #a78bfa); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </div>
+            <h3 style="font-size: 18px; font-weight: 600; color: #1e293b; margin-bottom: 8px;">Biografía</h3>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 16px;">Vidas inspiradoras</p>
+            <span style="display: inline-block; padding: 6px 16px; background: rgba(139, 92, 246, 0.1); color: #8b5cf6; border-radius: 20px; font-size: 13px; font-weight: 500;">54 libros</span>
+        </div>
+    </div>
+</div>

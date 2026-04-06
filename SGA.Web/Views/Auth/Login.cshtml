@@ -1,0 +1,283 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - SIGEBI</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            background: linear-gradient(135deg, #141414 0%, #1a1a1a 100%);
+        }
+        .login-container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .login-left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+        .login-right {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+        .brand {
+            margin-bottom: 60px;
+        }
+        .brand h1 {
+            font-size: 42px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #B20710 0%, #8B0000 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .brand p {
+            color: #b3b3b3;
+            font-size: 16px;
+            margin-top: 8px;
+        }
+        .welcome-text h2 {
+            font-size: 32px;
+            color: #ffffff;
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+        .welcome-text p {
+            color: #808080;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .login-card {
+            background: #1a1a1a;
+            border-radius: 24px;
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            border: 1px solid #2a2a2a;
+        }
+        .login-header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .login-header h2 {
+            color: #ffffff;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .login-header p {
+            color: #808080;
+            font-size: 14px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            color: #b3b3b3;
+            font-size: 14px;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .form-input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #2a2a2a;
+            border-radius: 12px;
+            font-size: 15px;
+            color: #ffffff;
+            background: #141414;
+            transition: all 0.3s ease;
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: #B20710;
+            box-shadow: 0 0 0 4px rgba(178, 7, 16, 0.1);
+        }
+        .form-input::placeholder {
+            color: #666666;
+        }
+        .btn-login {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #B20710 0%, #8B0000 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(178, 7, 16, 0.3);
+        }
+        .btn-login:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(178, 7, 16, 0.4);
+        }
+        .btn-login:active {
+            transform: translateY(0);
+        }
+        .alert {
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .alert-error {
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #ef4444;
+        }
+        .alert-success {
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: #10b981;
+        }
+        .login-footer {
+            text-align: center;
+            margin-top: 24px;
+        }
+        .login-footer a {
+            color: #B20710;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .login-footer a:hover {
+            text-decoration: underline;
+        }
+        .role-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .role-option {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #2a2a2a;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: #141414;
+        }
+        .role-option:hover {
+            border-color: #B20710;
+        }
+        .role-option.active {
+            border-color: #B20710;
+            background: rgba(178, 7, 16, 0.1);
+        }
+        .role-option input {
+            display: none;
+        }
+        .role-option span {
+            color: #b3b3b3;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .role-option.active span {
+            color: #B20710;
+        }
+        @@media (max-width: 768px) {
+            .login-container {
+                flex-direction: column;
+            }
+            .login-left {
+                display: none;
+            }
+            .login-right {
+                min-height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-left">
+            <div class="brand">
+                <h1>SIGEBI</h1>
+                <p>Sistema de Gestión de Biblioteca</p>
+            </div>
+            <div class="welcome-text">
+                <h2>Bienvenido de vuelta</h2>
+                <p>Inicia sesión para acceder a tu cuenta y gestionar tus préstamos, reservas y favoritos en nuestra biblioteca.</p>
+            </div>
+        </div>
+        <div class="login-right">
+            <div class="login-card">
+                <div class="login-header">
+                    <h2>Iniciar Sesión</h2>
+                    <p>Ingresa tus credenciales para continuar</p>
+                </div>
+
+                @if (ViewBag.Error != null)
+                {
+                    <div class="alert alert-error">@ViewBag.Error</div>
+                }
+
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success">@TempData["Success"]</div>
+                }
+
+                <form asp-controller="Auth" asp-action="Login" method="post">
+                    <div class="role-selector">
+                        <label class="role-option active">
+                            <input type="radio" name="tipoUsuario" value="estudiante" checked>
+                            <span>Estudiante</span>
+                        </label>
+                        <label class="role-option">
+                            <input type="radio" name="tipoUsuario" value="docente">
+                            <span>Docente</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="identificador">Matrícula / Cédula</label>
+                        <input type="text" id="identificador" name="identificador" class="form-input" placeholder="Ej: 2024-0015" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" class="form-input" placeholder="Tu contraseña" required>
+                    </div>
+
+                    <button type="submit" class="btn-login">Ingresar</button>
+                </form>
+
+                <div class="login-footer">
+                    <a href="/Home/Index">Continuar como invitado</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.role-option').forEach(option => {
+            option.addEventListener('click', function() {
+                document.querySelectorAll('.role-option').forEach(opt => opt.classList.remove('active'));
+                this.classList.add('active');
+                this.querySelector('input').checked = true;
+            });
+        });
+    </script>
+</body>
+</html>
