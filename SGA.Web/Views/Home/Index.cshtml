@@ -1,3 +1,184 @@
+<<<<<<< HEAD
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "SIGEBI";
+}
+
+<div class="home-container" style="padding: 32px;">
+    
+    <!-- Banner Principal (Hero Card) -->
+    <div class="hero-banner" style="background: linear-gradient(135deg, #7c3aed 0%, #9333ea 50%, #ec4899 100%); border-radius: 24px; padding: 40px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; position: relative; overflow: hidden; box-shadow: 0 10px 40px rgba(124, 58, 237, 0.3);">
+        <div class="hero-content" style="position: relative; z-index: 1; max-width: 400px;">
+            <h2 class="hero-title" style="font-size: 26px; font-weight: 700; color: white; margin-bottom: 12px; line-height: 1.2;">Descubre libros populares</h2>
+            <p class="hero-subtitle" style="font-size: 14px; color: rgba(255, 255, 255, 0.9); margin-bottom: 20px; line-height: 1.5;">Explora nuestro catálogo y encuentra tu próxima lectura favorita.</p>
+            <a href="/Home/Libros" style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; background: white; color: #7c3aed; border-radius: 10px; font-weight: 600; text-decoration: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                Explorar
+            </a>
+        </div>
+        <div style="position: relative; z-index: 1; display: flex; gap: 10px;">
+            <div style="width: 80px; height: 110px; background: rgba(255, 255, 255, 0.2); border-radius: 6px; transform: rotate(-5deg);"></div>
+            <div style="width: 80px; height: 110px; background: rgba(255, 255, 255, 0.3); border-radius: 6px; transform: rotate(3deg); display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </div>
+            <div style="width: 80px; height: 110px; background: rgba(255, 255, 255, 0.15); border-radius: 6px; transform: rotate(8deg);"></div>
+        </div>
+        <div style="position: absolute; top: -50%; right: -10%; width: 300px; height: 300px; background: rgba(255, 255, 255, 0.1); border-radius: 50%;"></div>
+    </div>
+
+    <!-- Tarjetas de Estadísticas -->
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 32px;">
+        <!-- Total de Libros -->
+        <div style="background: white; border-radius: 16px; padding: 24px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); display: flex; align-items: center; gap: 16px;">
+            <div style="width: 56px; height: 56px; border-radius: 12px; background: linear-gradient(135deg, #7c3aed, #8b5cf6); display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </div>
+            <div>
+                <div style="font-size: 28px; font-weight: 700; color: #1e293b; line-height: 1;">2,847</div>
+                <div style="font-size: 14px; color: #64748b; margin-top: 4px;">Total de libros</div>
+            </div>
+        </div>
+        <!-- Libros Prestados -->
+        <div style="background: white; border-radius: 16px; padding: 24px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); display: flex; align-items: center; gap: 16px;">
+            <div style="width: 56px; height: 56px; border-radius: 12px; background: linear-gradient(135deg, #ec4899, #f472b6); display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+                </svg>
+            </div>
+            <div>
+                <div style="font-size: 28px; font-weight: 700; color: #1e293b; line-height: 1;">342</div>
+                <div style="font-size: 14px; color: #64748b; margin-top: 4px;">Libros prestados</div>
+            </div>
+        </div>
+        <!-- Reservas Activas -->
+        <div style="background: white; border-radius: 16px; padding: 24px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); display: flex; align-items: center; gap: 16px;">
+            <div style="width: 56px; height: 56px; border-radius: 12px; background: linear-gradient(135deg, #f59e0b, #fbbf24); display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                </svg>
+            </div>
+            <div>
+                <div style="font-size: 28px; font-weight: 700; color: #1e293b; line-height: 1;">89</div>
+                <div style="font-size: 14px; color: #64748b; margin-top: 4px;">Reservas activas</div>
+            </div>
+        </div>
+        <!-- Favoritos -->
+        <div style="background: white; border-radius: 16px; padding: 24px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); display: flex; align-items: center; gap: 16px;">
+            <div style="width: 56px; height: 56px; border-radius: 12px; background: linear-gradient(135deg, #ef4444, #f87171); display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+            </div>
+            <div>
+                <div style="font-size: 28px; font-weight: 700; color: #1e293b; line-height: 1;">156</div>
+                <div style="font-size: 14px; color: #64748b; margin-top: 4px;">Favoritos</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-section" style="display: flex; justify-content: center; margin-bottom: 32px; padding: 0 20px;">
+        <div style="background: white; border-radius: 16px; padding: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); width: 100%; max-width: 700px;">
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                <div style="flex: 1; position: relative;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%);">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" placeholder="Buscar libros, títulos, autores..." style="width: 100%; padding: 14px 16px 14px 48px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 15px; color: #1e293b; outline: none; transition: all 0.3s ease;">
+                </div>
+                <button style="padding: 14px 28px; background: linear-gradient(135deg, #7c3aed, #8b5cf6); color: white; border: none; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    Buscar
+                </button>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                <span style="font-size: 13px; color: #64748b; font-weight: 500;">Filtros:</span>
+                <select style="padding: 8px 32px 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 13px; color: #64748b; background: white; cursor: pointer; outline: none; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%2364748b" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'); background-repeat: no-repeat; background-position: right 10px center;">
+                    <option>Autor</option>
+                    <option>Gabriel García Márquez</option>
+                    <option>George Orwell</option>
+                    <option>Miguel de Cervantes</option>
+                </select>
+                <select style="padding: 8px 32px 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 13px; color: #64748b; background: white; cursor: pointer; outline: none; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%2364748b" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'); background-repeat: no-repeat; background-position: right 10px center;">
+                    <option>Categoría</option>
+                    <option>Clásicos</option>
+                    <option>Ciencia Ficción</option>
+                    <option>Ficción</option>
+                    <option>Desarrollo Personal</option>
+                </select>
+                <select style="padding: 8px 32px 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 13px; color: #64748b; background: white; cursor: pointer; outline: none; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%2364748b" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'); background-repeat: no-repeat; background-position: right 10px center;">
+                    <option>Disponibilidad</option>
+                    <option>Disponible</option>
+                    <option>Prestado</option>
+                    <option>Reservado</option>
+                </select>
+                <button style="padding: 8px 16px; background: #f1f5f9; color: #64748b; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 13px; cursor: pointer;">Limpiar</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="new-books-section" style="margin-bottom: 40px;">
+        <div class="section-header" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+            <h2 class="section-title" style="font-size: 20px; font-weight: 600; color: #1e293b;">Nuevos Libros</h2>
+            <a href="/Home/Libros" class="section-link" style="font-size: 14px; color: #7c3aed; font-weight: 500;">Ver todo</a>
+        </div>
+        <div class="books-horizontal" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+            <div class="book-card-horizontal" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); transition: all 0.3s ease;">
+                <div class="book-cover-horizontal" style="width: 100%; height: 160px; background: linear-gradient(135deg, #7c3aed, #ec4899); border-radius: 16px 16px 0 0;"></div>
+                <div class="book-content" style="padding: 16px;">
+                    <span class="book-category" style="display: inline-block; padding: 4px 10px; background: rgba(124, 58, 237, 0.1); color: #7c3aed; border-radius: 20px; font-size: 10px; font-weight: 600; margin-bottom: 10px;">Clásicos</span>
+                    <h3 class="book-title" style="font-size: 15px; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">Cien Años de Soledad</h3>
+                    <p class="book-author" style="font-size: 12px; color: #64748b; margin-bottom: 10px;">Gabriel García Márquez</p>
+                    <p class="book-description" style="font-size: 12px; color: #64748b; line-height: 1.5; margin-bottom: 12px;">Una obra maestra del realismo mágico que narra la historia de la familia Buendía.</p>
+                    <button class="btn-reserve" style="width: 100%; padding: 8px 16px; background: #7c3aed; color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;">Reservar</button>
+                </div>
+            </div>
+            <div class="book-card-horizontal" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); transition: all 0.3s ease;">
+                <div class="book-cover-horizontal" style="width: 100%; height: 160px; background: linear-gradient(135deg, #7c3aed, #ec4899); border-radius: 16px 16px 0 0;"></div>
+                <div class="book-content" style="padding: 16px;">
+                    <span class="book-category" style="display: inline-block; padding: 4px 10px; background: rgba(124, 58, 237, 0.1); color: #7c3aed; border-radius: 20px; font-size: 10px; font-weight: 600; margin-bottom: 10px;">Ciencia Ficción</span>
+                    <h3 class="book-title" style="font-size: 15px; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">1984</h3>
+                    <p class="book-author" style="font-size: 12px; color: #64748b; margin-bottom: 10px;">George Orwell</p>
+                    <p class="book-description" style="font-size: 12px; color: #64748b; line-height: 1.5; margin-bottom: 12px;">Una novela distópica sobre un régimen totalitario que controla cada aspecto de la vida.</p>
+                    <button class="btn-reserve" style="width: 100%; padding: 8px 16px; background: #7c3aed; color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;">Reservar</button>
+                </div>
+            </div>
+            <div class="book-card-horizontal" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); transition: all 0.3s ease;">
+                <div class="book-cover-horizontal" style="width: 100%; height: 160px; background: linear-gradient(135deg, #7c3aed, #ec4899); border-radius: 16px 16px 0 0;"></div>
+                <div class="book-content" style="padding: 16px;">
+                    <span class="book-category" style="display: inline-block; padding: 4px 10px; background: rgba(124, 58, 237, 0.1); color: #7c3aed; border-radius: 20px; font-size: 10px; font-weight: 600; margin-bottom: 10px;">Ficción</span>
+                    <h3 class="book-title" style="font-size: 15px; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">Don Quijote de la Mancha</h3>
+                    <p class="book-author" style="font-size: 12px; color: #64748b; margin-bottom: 10px;">Miguel de Cervantes</p>
+                    <p class="book-description" style="font-size: 12px; color: #64748b; line-height: 1.5; margin-bottom: 12px;">La historia de un hidalgo que lucha contra molinos de viento.</p>
+                    <button class="btn-reserve" style="width: 100%; padding: 8px 16px; background: #7c3aed; color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;">Reservar</button>
+                </div>
+            </div>
+            <div class="book-card-horizontal" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); transition: all 0.3s ease;">
+                <div class="book-cover-horizontal" style="width: 100%; height: 160px; background: linear-gradient(135deg, #7c3aed, #ec4899); border-radius: 16px 16px 0 0;"></div>
+                <div class="book-content" style="padding: 16px;">
+                    <span class="book-category" style="display: inline-block; padding: 4px 10px; background: rgba(124, 58, 237, 0.1); color: #7c3aed; border-radius: 20px; font-size: 10px; font-weight: 600; margin-bottom: 10px;">Desarrollo Personal</span>
+                    <h3 class="book-title" style="font-size: 15px; font-weight: 700; color: #1e293b; margin-bottom: 4px; line-height: 1.3;">El Principito</h3>
+                    <p class="book-author" style="font-size: 12px; color: #64748b; margin-bottom: 10px;">Antoine de Saint-Exupéry</p>
+                    <p class="book-description" style="font-size: 12px; color: #64748b; line-height: 1.5; margin-bottom: 12px;">Un clásico que nos enseña sobre el amor y la amistad.</p>
+                    <button class="btn-reserve" style="width: 100%; padding: 8px 16px; background: #7c3aed; color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;">Reservar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+=======
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
@@ -5,3 +186,4 @@
 <h2>Prueba de conexión a SQL Server</h2>
 <p>@ViewBag.Conexion</p>
 
+>>>>>>> 63805313ec8ba0ebcf69a1a46a526358e6722d9c

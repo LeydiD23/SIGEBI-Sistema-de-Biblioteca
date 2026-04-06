@@ -19,7 +19,11 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     if (db.Database.CanConnect())
+<<<<<<< HEAD
+        Console.WriteLine(" Conexiï¿½n exitosa");
+=======
         Console.WriteLine(" Conexión exitosa");
+>>>>>>> 63805313ec8ba0ebcf69a1a46a526358e6722d9c
     else
         Console.WriteLine(" No se pudo conectar");
 }
@@ -31,11 +35,18 @@ using (var scope = app.Services.CreateScope())
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+<<<<<<< HEAD
+    app.UseHsts();
+}
+
+// app.UseHttpsRedirection(); // Temporalmente deshabilitado
+=======
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+>>>>>>> 63805313ec8ba0ebcf69a1a46a526358e6722d9c
 app.UseStaticFiles();
 
 app.UseRouting();
