@@ -1,0 +1,350 @@
+@model List<SGA.Application.DTOs.LibroDto>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Favoritos";
+}
+
+<style>
+    .page-container {
+        padding: 32px;
+    }
+    
+    .page-header {
+        margin-bottom: 32px;
+    }
+    
+    .page-header h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--text-white);
+        margin-bottom: 8px;
+    }
+    
+    .page-header p {
+        font-size: 15px;
+        color: var(--text-gray);
+    }
+    
+    .books-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+    
+    .book-card {
+        background: var(--bg-card);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+        border: 1px solid var(--border-dark);
+    }
+    
+    .book-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+    
+    .book-cover {
+        width: 100%;
+        height: 200px;
+        background: var(--primary-gradient);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .book-cover .favorite-btn {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.9);
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+    }
+    
+    .book-cover .favorite-btn:hover {
+        background: white;
+        transform: scale(1.1);
+    }
+    
+    .book-cover .favorite-btn svg {
+        fill: #ef4444;
+        stroke: #ef4444;
+    }
+    
+    .book-content {
+        padding: 20px;
+    }
+    
+    .book-category {
+        display: inline-block;
+        padding: 4px 12px;
+        background: rgba(178, 7, 16, 0.2);
+        color: var(--accent-red);
+        border-radius: 20px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    
+    .book-title {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--text-white);
+        margin-bottom: 6px;
+        line-height: 1.3;
+    }
+    
+    .book-author {
+        font-size: 13px;
+        color: var(--text-gray);
+        margin-bottom: 12px;
+    }
+    
+    .book-availability {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+        margin-bottom: 16px;
+    }
+    
+    .availability-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+    }
+    
+    .available {
+        background: #10b981;
+    }
+    
+    .unavailable {
+        background: #ef4444;
+    }
+    
+    .book-actions {
+        display: flex;
+        gap: 8px;
+    }
+    
+    .btn-reserve {
+        flex: 1;
+        padding: 10px 16px;
+        background: var(--primary-gradient);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        box-shadow: 0 4px 15px rgba(178, 7, 16, 0.3);
+    }
+    
+    .btn-reserve:hover {
+        opacity: 0.9;
+    }
+    
+    .btn-reserve:disabled {
+        background: var(--bg-card-hover);
+        color: var(--text-muted);
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+    
+    .btn-remove {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: rgba(239, 68, 68, 0.2);
+        color: #ef4444;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+    }
+    
+    .btn-remove:hover {
+        background: rgba(239, 68, 68, 0.3);
+    }
+    
+    .empty-state {
+        text-align: center;
+        padding: 60px 20px;
+        background: var(--bg-card);
+        border-radius: 16px;
+        border: 1px solid var(--border-dark);
+    }
+    
+    .empty-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 20px;
+        border-radius: 50%;
+        background: var(--bg-card-hover);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .empty-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--text-white);
+        margin-bottom: 8px;
+    }
+    
+    .empty-text {
+        font-size: 14px;
+        color: var(--text-gray);
+        margin-bottom: 24px;
+    }
+    
+    .btn-browse {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        background: var(--primary-gradient);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(178, 7, 16, 0.3);
+    }
+</style>
+
+<div class="page-container">
+    <div class="page-header">
+        <h1>Mis Favoritos</h1>
+        <p>Libros que has guardado en tus favoritos</p>
+    </div>
+    
+    @if (Model != null && Model.Any())
+    {
+        <div class="books-grid">
+            @{
+                var gradients = new[] {
+                    "var(--primary-gradient)",
+                    "linear-gradient(135deg, #06b6d4, #0891b2)",
+                    "linear-gradient(135deg, #10b981, #059669)",
+                    "linear-gradient(135deg, #f59e0b, #d97706)",
+                    "linear-gradient(135deg, #6366f1, #4f46e5)",
+                    "linear-gradient(135deg, #8b5cf6, #7c3aed)"
+                };
+                int gradIndex = 0;
+            }
+
+            @foreach (var libro in Model)
+            {
+                var gradient = gradients[gradIndex % gradients.Length];
+                gradIndex++;
+
+                <div class="book-card">
+                    <div class="book-cover" style="background: @gradient;">
+                        <button class="favorite-btn" onclick="toggleFavorite(@libro.Id, this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" opacity="0.6">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="book-content">
+                        <span class="book-category">@(libro.CategoriaNombre ?? "Sin categoría")</span>
+                        <h3 class="book-title">@libro.Titulo</h3>
+                        <p class="book-author">@libro.Autor</p>
+                        <div class="book-availability">
+                            <span class="availability-dot @(libro.StockDisponible > 0 ? "available" : "unavailable")"></span>
+                            <span style="color: @(libro.StockDisponible > 0 ? "#10b981" : "#ef4444");">
+                                @(libro.StockDisponible > 0 ? $"Disponible ({libro.StockDisponible})" : "No disponible")
+                            </span>
+                        </div>
+                        <div class="book-actions">
+                            @if (libro.StockDisponible > 0)
+                            {
+                                <button class="btn-reserve" onclick="reservarLibro(@libro.Id)">Reservar</button>
+                            }
+                            else
+                            {
+                                <button class="btn-reserve" disabled>No disponible</button>
+                            }
+                            <button class="btn-remove" onclick="removeFavorite(@libro.Id, this)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <div class="empty-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--text-gray)" stroke-width="1.5">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+            </div>
+            <h3 class="empty-title">No tienes libros favoritos</h3>
+            <p class="empty-text">Explora nuestro catálogo y guarda tus libros favoritos para verlos aquí.</p>
+            <a href="/Home/Libros" class="btn-browse">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                Explorar católogo
+            </a>
+        </div>
+    }
+</div>
+
+<script>
+    function toggleFavorite(libroId, button) {
+        const svg = button.querySelector('svg');
+        const isFilled = svg.getAttribute('fill') === 'currentColor';
+        
+        if (isFilled) {
+            svg.setAttribute('fill', 'none');
+        } else {
+            svg.setAttribute('fill', 'currentColor');
+        }
+        
+        console.log('Toggle favorite for book:', libroId);
+    }
+
+    function removeFavorite(libroId, button) {
+        if (confirm('¿Deseas eliminar este libro de tus favoritos?')) {
+            const card = button.closest('.book-card');
+            card.style.opacity = '0';
+            card.style.transform = 'scale(0.8)';
+            setTimeout(() => card.remove(), 300);
+            console.log('Remove favorite for book:', libroId);
+        }
+    }
+
+    function reservarLibro(libroId) {
+        alert('Funcionalidad de reservar coming soon. Libro ID: ' + libroId);
+    }
+</script>

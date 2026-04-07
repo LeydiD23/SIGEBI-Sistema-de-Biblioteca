@@ -1,0 +1,346 @@
+@model List<SGA.Application.DTOs.PrestamoDto>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Mis Préstamos";
+    var estadoFiltro = ViewBag.EstadoFiltro as int?;
+    var prestamosActivos = Model?.Count(p => p.Estado == "Activo") ?? 0;
+    var prestamosVencidos = Model?.Count(p => p.Estado == "Vencido") ?? 0;
+    var prestamosDevueltos = Model?.Count(p => p.Estado == "Devuelto") ?? 0;
+}
+
+<style>
+    .page-container {
+        padding: 32px;
+    }
+    
+    .page-header {
+        margin-bottom: 32px;
+    }
+    
+    .page-header h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--text-white);
+        margin-bottom: 8px;
+    }
+    
+    .page-header p {
+        font-size: 15px;
+        color: var(--text-gray);
+    }
+    
+    .stats-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-bottom: 32px;
+    }
+    
+    .stat-card {
+        background: var(--bg-card);
+        border-radius: 16px;
+        padding: 24px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        border: 1px solid var(--border-dark);
+    }
+    
+    .stat-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .stat-value {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--text-white);
+    }
+    
+    .stat-label {
+        font-size: 14px;
+        color: var(--text-gray);
+    }
+    
+    .filter-tabs {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 24px;
+    }
+    
+    .filter-tab {
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        background: var(--bg-card);
+        color: var(--text-gray);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.2s;
+        border: 1px solid var(--border-dark);
+        text-decoration: none;
+    }
+    
+    .filter-tab.active {
+        background: var(--primary-gradient);
+        color: white;
+    }
+    
+    .table-card {
+        background: var(--bg-card);
+        border-radius: 16px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        border: 1px solid var(--border-dark);
+        overflow: hidden;
+    }
+    
+    .loan-item {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 1px solid var(--border-dark);
+        gap: 20px;
+    }
+    
+    .loan-item:last-child {
+        border-bottom: none;
+    }
+    
+    .loan-cover {
+        width: 60px;
+        height: 80px;
+        border-radius: 8px;
+        background: var(--primary-gradient);
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .loan-info {
+        flex: 1;
+    }
+    
+    .loan-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--text-white);
+        margin-bottom: 4px;
+    }
+    
+    .loan-author {
+        font-size: 14px;
+        color: var(--text-gray);
+        margin-bottom: 8px;
+    }
+    
+    .loan-dates {
+        display: flex;
+        gap: 24px;
+        font-size: 13px;
+        color: var(--text-muted);
+    }
+    
+    .loan-status {
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .status-active {
+        background: rgba(16, 185, 129, 0.2);
+        color: #10b981;
+    }
+    
+    .status-overdue {
+        background: rgba(239, 68, 68, 0.2);
+        color: #ef4444;
+    }
+    
+    .status-returned {
+        background: rgba(99, 102, 241, 0.2);
+        color: #6366f1;
+    }
+    
+    .loan-actions {
+        display: flex;
+        gap: 8px;
+    }
+    
+    .btn-action {
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        transition: all 0.2s;
+    }
+    
+    .btn-renew {
+        background: var(--bg-card-hover);
+        color: var(--text-gray);
+        border: 1px solid var(--border-dark);
+    }
+    
+    .btn-renew:hover {
+        background: var(--border-dark);
+    }
+    
+    .btn-return {
+        background: var(--primary-gradient);
+        color: white;
+        box-shadow: 0 4px 15px rgba(178, 7, 16, 0.3);
+    }
+</style>
+
+<div class="page-container">
+    <div class="page-header">
+        <h1>Mis Préstamos</h1>
+        <p>Historial y estado de tus préstamos de libros</p>
+    </div>
+    
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="stat-icon" style="background: var(--primary-gradient);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </div>
+            <div>
+                <div class="stat-value">@prestamosActivos</div>
+                <div class="stat-label">Préstamos actuales</div>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+            </div>
+            <div>
+                <div class="stat-value">@prestamosVencidos</div>
+                <div class="stat-label">Vencidos</div>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon" style="background: linear-gradient(135deg, #10b981, #059669);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+            </div>
+            <div>
+                <div class="stat-value">@prestamosDevueltos</div>
+                <div class="stat-label">Total devueltos</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="filter-tabs">
+        <a href="/Home/MisPrestamos" class="filter-tab @(estadoFiltro == null ? "active" : "")">Todos</a>
+        <a href="/Home/MisPrestamos?estado=1" class="filter-tab @(estadoFiltro == 1 ? "active" : "")">Activos</a>
+        <a href="/Home/MisPrestamos?estado=3" class="filter-tab @(estadoFiltro == 3 ? "active" : "")">Vencidos</a>
+        <a href="/Home/MisPrestamos?estado=2" class="filter-tab @(estadoFiltro == 2 ? "active" : "")">Devueltos</a>
+    </div>
+    
+    @if (Model != null && Model.Any())
+    {
+        <div class="table-card">
+            @foreach (var prestamo in Model)
+            {
+                var estadoClass = prestamo.Estado switch
+                {
+                    "Activo" => "status-active",
+                    "Vencido" => "status-overdue",
+                    "Devuelto" => "status-returned",
+                    _ => ""
+                };
+                
+                var estadoTexto = prestamo.Estado switch
+                {
+                    "Activo" => "● Activo",
+                    "Vencido" => "● Vencido",
+                    "Devuelto" => "● Devuelto",
+                    _ => ""
+                };
+
+                <div class="loan-item">
+                    <div class="loan-cover">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="loan-info">
+                        <div class="loan-title">@(prestamo.LibroTitulo ?? "Libro desconocido")</div>
+                        <div class="loan-author">Autor desconocido</div>
+                        <div class="loan-dates">
+                            <span>📅 Préstamo: @prestamo.FechaPrestamo.ToString("dd MMM yyyy")</span>
+                            @if (prestamo.FechaDevolucionReal.HasValue)
+                            {
+                                <span>📅 Devuelto: @prestamo.FechaDevolucionReal.Value.ToString("dd MMM yyyy")</span>
+                            }
+                            else
+                            {
+                                <span>📅 Límite: @prestamo.FechaLimite.ToString("dd MMM yyyy")</span>
+                            }
+                        </div>
+                    </div>
+                    <span class="loan-status @estadoClass">@estadoTexto</span>
+                    <div class="loan-actions">
+                        @if (prestamo.Estado == "Activo")
+                        {
+                            <button class="btn-action btn-renew" onclick="renovarPrestamo(@prestamo.Id)">Renovar</button>
+                            <button class="btn-action btn-return" onclick="devolverLibro(@prestamo.Id)">Devolver</button>
+                        }
+                        else if (prestamo.Estado == "Devuelto")
+                        {
+                            <button class="btn-action btn-renew" onclick="reservarAgain(@prestamo.LibroId)">Reservar de nuevo</button>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="table-card" style="padding: 60px; text-align: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--text-gray)" stroke-width="1.5" style="margin-bottom: 20px;">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <h3 style="font-size: 18px; color: var(--text-white); margin-bottom: 8px;">No tienes préstamos</h3>
+            <p style="color: var(--text-gray); font-size: 14px; margin-bottom: 20px;">Explora nuestro catálogo y solicita tu primer préstamo.</p>
+            <a href="/Home/Libros" style="display: inline-block; padding: 12px 24px; background: var(--primary-gradient); color: white; border-radius: 10px; text-decoration: none; font-weight: 600;">
+                Explorar católogo
+            </a>
+        </div>
+    }
+</div>
+
+<script>
+    function renovarPrestamo(id) {
+        alert('Funcionalidad de renovar coming soon. Préstamo ID: ' + id);
+    }
+
+    function devolverLibro(id) {
+        if (confirm('¿Estás seguro de que deseas devolver este libro?')) {
+            alert('Funcionalidad de devolver coming soon. Préstamo ID: ' + id);
+        }
+    }
+
+    function reservarAgain(libroId) {
+        alert('Funcionalidad de reservar coming soon. Libro ID: ' + libroId);
+    }
+</script>

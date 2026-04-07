@@ -1,0 +1,64 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Categorías";
+    var categorias = ViewBag.Categorias;
+    var gradients = new[] {
+        "var(--primary-gradient)",
+        "linear-gradient(135deg, #06b6d4, #0891b2)",
+        "linear-gradient(135deg, #DC143C, #B20710)",
+        "linear-gradient(135deg, #10b981, #059669)",
+        "linear-gradient(135deg, #ef4444, #dc2626)",
+        "linear-gradient(135deg, #f59e0b, #d97706)",
+        "linear-gradient(135deg, #f43f5e, #e11d48)",
+        "linear-gradient(135deg, #6366f1, #4f46e5)",
+        "linear-gradient(135deg, #8b5cf6, #7c3aed)"
+    };
+}
+
+<div class="home-container" style="padding: 32px;">
+    <div style="margin-bottom: 32px;">
+        <h1 style="font-size: 28px; font-weight: 700; color: var(--text-white); margin-bottom: 8px;">Categorías</h1>
+        <p style="font-size: 15px; color: var(--text-gray);">Explora los libros por categoría</p>
+    </div>
+
+    @if (categorias != null && categorias.Count > 0)
+    {
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
+            @{
+                int colorIndex = 0;
+                foreach (var categoria in categorias)
+                {
+                    var gradient = gradients[colorIndex % gradients.Length];
+                    colorIndex++;
+                    var libroCount = categoria.Libros != null ? categoria.Libros.Count : 0;
+
+                    <a href="/Home/Libros?categoria=@Uri.EscapeDataString(categoria.Nombre)" style="background: var(--bg-card); border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; cursor: pointer; border: 1px solid var(--border-dark); text-decoration: none;">
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: @gradient; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 style="font-size: 18px; font-weight: 600; color: var(--text-white); margin-bottom: 8px;">@categoria.Nombre</h3>
+                        <p style="font-size: 14px; color: var(--text-gray); margin-bottom: 16px;">@libroCount libros disponibles</p>
+                        <span style="display: inline-block; padding: 6px 16px; background: rgba(178, 7, 16, 0.2); color: var(--accent-red); border-radius: 20px; font-size: 13px; font-weight: 500;">
+                            Ver libros
+                        </span>
+                    </a>
+                }
+            }
+        </div>
+    }
+    else
+    {
+        <div style="background: var(--bg-card); border-radius: 16px; padding: 40px; text-align: center; border: 1px solid var(--border-dark);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--text-gray)" stroke-width="1.5" style="margin-bottom: 16px;">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            <p style="color: var(--text-gray); font-size: 14px;">No hay categorías disponibles.</p>
+        </div>
+    }
+</div>

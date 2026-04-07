@@ -1,0 +1,69 @@
+@model List<SGA.Application.DTOs.LibroDto>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Nuevos Ingresos";
+}
+
+<div class="home-container" style="padding: 32px;">
+    <div style="margin-bottom: 32px;">
+        <h1 style="font-size: 28px; font-weight: 700; color: var(--text-white); margin-bottom: 8px;">Nuevos Ingresos</h1>
+        <p style="font-size: 15px; color: var(--text-gray);">Los libros más recientes添加到 nuestra colección</p>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;">
+            @{
+                var gradients = new[] {
+                    "linear-gradient(135deg, #10b981, #059669)",
+                    "linear-gradient(135deg, #06b6d4, #0891b2)",
+                    "linear-gradient(135deg, #DC143C, #B20710)",
+                    "linear-gradient(135deg, #f59e0b, #d97706)",
+                    "var(--primary-gradient)",
+                    "linear-gradient(135deg, #6366f1, #4f46e5)",
+                    "linear-gradient(135deg, #ef4444, #dc2626)",
+                    "linear-gradient(135deg, #8b5cf6, #7c3aed)"
+                };
+                int gradIndex = 0;
+            }
+
+            @foreach (var libro in Model)
+            {
+                var gradient = gradients[gradIndex % gradients.Length];
+                gradIndex++;
+
+                <div class="book-card" style="background: var(--bg-card); border-radius: 16px; overflow: hidden; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; border: 1px solid var(--border-dark);">
+                    <div style="position: relative;">
+                        <div style="width: 100%; height: 180px; background: @gradient; display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" opacity="0.6">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <div style="position: absolute; top: 12px; right: 12px; background: #10b981; color: white; padding: 4px 10px; border-radius: 20px; font-size: 10px; font-weight: 600;">Nuevo</div>
+                    </div>
+                    <div style="padding: 16px;">
+                        <span style="display: inline-block; padding: 4px 10px; background: rgba(178, 7, 16, 0.2); color: var(--accent-red); border-radius: 20px; font-size: 10px; font-weight: 600; margin-bottom: 10px;">@(libro.CategoriaNombre ?? "Sin categoría")</span>
+                        <h3 style="font-size: 15px; font-weight: 700; color: var(--text-white); margin-bottom: 4px;">@libro.Titulo</h3>
+                        <p style="font-size: 12px; color: var(--text-gray); margin-bottom: 8px;">@libro.Autor</p>
+                        <p style="font-size: 10px; color: var(--text-muted); margin-bottom: 12px;">Agregado: @libro.FechaAdquisicion.ToString("dd MMM yyyy")</p>
+                        @if (libro.StockDisponible > 0)
+                        {
+                            <button class="btn-reserve" style="width: 100%; padding: 10px 16px; background: var(--primary-gradient); color: white; border: none; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer;">Reservar</button>
+                        }
+                        else
+                        {
+                            <button class="btn-reserve" disabled style="width: 100%; padding: 10px 16px; background: var(--bg-card-hover); color: var(--text-gray); border: none; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: not-allowed;">No disponible</button>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div style="background: var(--bg-card); border-radius: 16px; padding: 60px; text-align: center; border: 1px solid var(--border-dark);">
+            <p style="color: var(--text-gray);">No hay nuevos ingresos disponibles.</p>
+        </div>
+    }
+</div>
